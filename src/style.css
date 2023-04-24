@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+span {
+  color: #ed2024;
+}
+
+.nav-link.active {
+  color: #ed2024;
+  border: none !important;
+}
+
+.active {
+  color: #ed2024 !important;
+  font-weight: bold;
+}
+
+.nav-item a {
+  font-weight: bold;
+  color: #818181;
+}
+
+.nav-tabs {
+  border: none !important;
+  --bs-nav-tabs-link-active-bg: none !important;
+}
+
+.nav-tabs .nav-link {
+  border: none !important;
+}
+
+.nav-item a:hover {
+  color: #ed2024;
+  border: none !important;
+}
+
+.rotated {
+  color: #010101;
+  -webkit-text-stroke: 2px #ed2024;
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+}
+
+.logo {
+  width: 100px;
+}
+
+.body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(270deg, #010101, #320102, #010101);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 59s ease infinite;
+  -moz-animation: AnimationName 59s ease infinite;
+  -o-animation: AnimationName 59s ease infinite;
+  animation: AnimationName 59s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
